@@ -6,7 +6,6 @@ import {
   googleAuthLogin,
 } from "../controllers/auth";
 import passport from "passport";
-
 const router = Router();
 
 router.get("/google/login", googleAuthLogin);
